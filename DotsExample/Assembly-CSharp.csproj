@@ -70,9 +70,14 @@
     <Analyzer Include="C:\Users\firat\Documents\GitHub\Dots-Unity3d\DotsExample\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntityGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\RotateSpeedAuthoring.cs" />
-    <Compile Include="Assets\Scripts\RotatingCubeSysem.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAuthoring.cs" />
+    <Compile Include="Assets\Scripts\Objects\RotatingCubeAuthoring.cs" />
+    <Compile Include="Assets\Scripts\Objects\HandleCubeSystem.cs" />
+    <Compile Include="Assets\Scripts\Main\MovementAuthoring.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Objects\RotatingMovingCubeAspect.cs" />
+    <Compile Include="Assets\Scripts\Objects\RotatingCubeSysem.cs" />
+    <Compile Include="Assets\Scripts\Main\RotateSpeedAuthoring.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

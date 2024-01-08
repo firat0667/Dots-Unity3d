@@ -403,8 +403,13 @@
 -analyzer:"Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.SystemGenerator.SystemAPI.dll"
 -analyzer:"Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.SystemGenerator.SystemAPI.Query.dll"
 -analyzer:"Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.SystemGenerator.SystemAPI.QueryBuilder.dll"
-"Assets/Scripts/RotateSpeedAuthoring.cs"
-"Assets/Scripts/RotatingCubeSysem.cs"
+"Assets/Scripts/Main/MovementAuthoring.cs"
+"Assets/Scripts/Main/RotateSpeedAuthoring.cs"
+"Assets/Scripts/Objects/HandleCubeSystem.cs"
+"Assets/Scripts/Objects/RotatingCubeAuthoring.cs"
+"Assets/Scripts/Objects/RotatingCubeSysem.cs"
+"Assets/Scripts/Objects/RotatingMovingCubeAspect.cs"
+"Assets/Scripts/Player/PlayerAuthoring.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
