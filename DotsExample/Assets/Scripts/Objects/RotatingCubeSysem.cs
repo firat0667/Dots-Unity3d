@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
@@ -43,6 +44,7 @@ public partial struct RotatingCubeSysem : ISystem
     [WithAll(typeof(RotatingCube))] // player not rotate
     public partial struct RotatingCubeJob : IJobEntity
     {
+      [Unity.Collections.ReadOnly] public NativeArray<int> nativeArray;
         public float DeltaTime;
         public void Execute( ref LocalTransform localTransform,in RotateSpeed rotateSpeed)
         {
